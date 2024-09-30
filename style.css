@@ -10,7 +10,7 @@ body {
 
 header {
     height: 100vh;
-    background: url(./imagens/Background\ verde.svg) left center;
+    background: url(./imagens/backgroundverde.svg) left center;
 }
 
 a {
@@ -86,7 +86,7 @@ a {
 
 .contato {
     height: 100vh;
-    background: url(./imagens/background\ branco.svg);
+    background: url(./imagens/backgroundbranco.svg);
     text-align: center;
     align-content: center;
 }
