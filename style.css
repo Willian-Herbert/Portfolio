@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    height: 100vh;
+    background: url(./imagens/Background\ verde.svg) left center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-img {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: linear-gradient(#01737783 0%, transparent 100%);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    align-content: center;
+}
+
+.top-img img {
+    height: 30px;
+}
+
+.header-content {
+    width: 80%;
+    height: 100%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.header-title {
+    width: 50%;
+    padding: 30px;
+    
+}
+
+.header-title h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-title h2 {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text {
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .header-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-title {
+        width: 80%;
+        text-align: center;
+    }
+
+    .header-text {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+/* Estilo Conteúdo */
+
+/* Contato */
+
+.contato {
+    height: 100vh;
+    background: url(./imagens/background\ branco.svg);
+    text-align: center;
+    align-content: center;
+}
+
+.contato h2 {
+    color: #02646C;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-contato a {
+    margin: 20px;
+    transition: scale 0.3s;
+}
+
+.container-contato a:hover {
+    scale: 1.1;
+}
+
+.card-contato1,
+.card-contato2 {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(180deg, #017377 0%, #07102F 100%);
+    text-align: center;
+    align-content: center;
+}
+
+.card-contato1 {
+    border-radius: 20px 0px;
+}
+
+.card-contato2 {
+    border-radius: 0px 20px;
+}
+
+.contato img {
+    width: 60px;
+    padding: 20px;
+}
+
+.contato a h3{
+    background: -webkit-linear-gradient(#FFFFFF 40%, rgba(153, 153, 153, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Habilidades */
+
+.habilidades {
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(180deg, #071230 0%, #017276 100%);
+    border-radius: 60px 60px 0px 0px;
+}
+
+.habilidades h2 {
+    color: white;
+}
+
+.container-habilidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-habilidade {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(180deg, #07123000 0%, #ffffff 100%);
+    margin: 20px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    align-content: center;
+    color: #02646C;
+}
+
+.card-habilidade img {
+    width: 70px;
+    padding: 20px;
+}
+
+/* Projetos */
+
+.projetos {
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+    background: linear-gradient(180deg, #017276 0%, #071230 100%);
+}
+
+.projetos h2 {
+    color: white;
+}
+
+.container-projetos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-projetos a {
+    margin: 50px;
+}
+
+.card-projeto {
+    width: 250px;
+    height: 250px;
+}
+
+.card-projeto img {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+/* Estilo rodapé */
+
+footer {
+    background-color: #050D20;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
